@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="All Test Suite">
+
+<listeners>
+    <listener class-name="testpac.Testcomponents.Listners">
+    </listener>
+</listeners>
+    <test verbose="2" preserve-order="true"  name="run">
+        <classes>
+            <class name="testpac.tests.Demorun">
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="validation">
+        <classes>
+            <class name="testpac.tests.ErrorValidations">
+            </class>
+        </classes>
+    </test>
+</suite>
