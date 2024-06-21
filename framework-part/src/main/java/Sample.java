@@ -19,6 +19,7 @@ public class Sample {
         //driver.findElement(By.xpath("//span[@class='VfPpkd-vQzf8d']")).click();
         System.out.println("first time change");
         System.out.println("IST change first time");
+        System.out.println("PST changes");
     }
 }
 
